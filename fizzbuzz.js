@@ -16,5 +16,8 @@ module.exports = fizzbuzz;
 let str = '';
 
 for (let i = 0; i < 51; i ++) {
-  console.log(fizzbuzz(i))
+  result = fizzbuzz(i)
+  str = str +" " +result;
 }
+
+console.log(str)
